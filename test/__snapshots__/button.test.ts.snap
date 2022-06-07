@@ -1,0 +1,54 @@
+// Vitest Snapshot v1
+
+exports[`should emit click event correctly 1`] = `
+"<button class=\\"d-button color-dark inline-flex justify-center items-center rounded-md hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed bg-white active:bg-gray-200 border border-gray-200 min-w-16 min-h-8 tracking-wide text-base px-2\\">
+  <!---->
+  <!---->
+</button>"
+`;
+
+exports[`should emit disabled click event correctly 1`] = `
+"<button class=\\"d-button color-dark inline-flex justify-center items-center rounded-md disabled:opacity-50 disabled:cursor-not-allowed bg-white active:bg-gray-200 border border-gray-200 min-w-16 min-h-8 tracking-wide text-base px-2\\" disabled=\\"\\">
+  <!---->
+  <!---->
+</button>"
+`;
+
+exports[`should emit loading click event correctly 1`] = `
+"<button class=\\"d-button color-dark inline-flex justify-center items-center rounded-md hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed bg-white active:bg-gray-200 border border-gray-200 min-w-16 min-h-8 tracking-wide text-base px-2\\"><i class=\\"inline-block i-eos-icons:loading mr-0.5\\"></i>
+  <!---->
+</button>"
+`;
+
+exports[`should mount component correctly 1`] = `
+"<button class=\\"d-button color-light inline-flex justify-center items-center rounded-md hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed bg-blue-500 active:bg-blue-400 min-w-16 min-h-8 tracking-wide text-base px-2\\">
+  <!---->
+  <!---->
+</button>"
+`;
+
+exports[`should render button text correctly 1`] = `
+"<button class=\\"d-button color-dark inline-flex justify-center items-center rounded-md hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed bg-white active:bg-gray-200 border border-gray-200 min-w-16 min-h-8 tracking-wide text-base px-2\\">
+  <!---->My Button
+</button>"
+`;
+
+exports[`should render disabled state correctly 1`] = `
+"<button class=\\"d-button color-dark inline-flex justify-center items-center rounded-md disabled:opacity-50 disabled:cursor-not-allowed bg-white active:bg-gray-200 border border-gray-200 min-w-16 min-h-8 tracking-wide text-base px-2\\" disabled=\\"\\">
+  <!---->
+  <!---->
+</button>"
+`;
+
+exports[`should render loading state correctly 1`] = `
+"<button class=\\"d-button color-dark inline-flex justify-center items-center rounded-md hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed bg-white active:bg-gray-200 border border-gray-200 min-w-16 min-h-8 tracking-wide text-base px-2\\"><i class=\\"inline-block i-eos-icons:loading mr-0.5\\"></i>
+  <!---->
+</button>"
+`;
+
+exports[`should render primary correctly 1`] = `
+"<button class=\\"d-button color-light inline-flex justify-center items-center rounded-md hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed bg-blue-500 active:bg-blue-400 min-w-16 min-h-8 tracking-wide text-base px-2\\">
+  <!---->
+  <!---->
+</button>"
+`;

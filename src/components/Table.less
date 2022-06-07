@@ -1,0 +1,35 @@
+.shadow-right {
+  &::after {
+    pointer-events: none;
+    content: '';
+    width: 36px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: -1px;
+    transition: box-shadow 0.2s var(--n-bezier);
+    right: -36px;
+    box-shadow: inset 12px 0 8px -12px rgba(0, 0, 0, 0.18);
+  }
+}
+
+.table-container {
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    transition: all 0.3s ease;
+  }
+
+  /*定义滚动条轨道
+    内阴影+圆角*/
+  &::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  &:hover {
+    &::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+  }
+}
